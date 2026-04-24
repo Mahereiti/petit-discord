@@ -1,1 +1,3 @@
 # petit-discord
+
+# Voir autre readme pour les réponses etc...
