@@ -1,7 +1,8 @@
 defmodule MiniDiscord do
   use Application
 
-  def start(_type, _args) do
+def start(_type, _args) do
+    :ets.new(:pseudos, [:named_table, :public, :set]) # 3.1
     children = [
       {Registry, keys: :unique, name: MiniDiscord.Registry},
       {DynamicSupervisor, strategy: :one_for_one, name: MiniDiscord.SalonSupervisor},

@@ -28,4 +28,18 @@ PHASE 2 - SUPERVISION ET ROBUSTESSE
 2-5. Quelle est la différence entre les stratégies :one_for_one et :one_for_all ?
   Pour :one_for_one, le processus meurt seul, et est redémarré seul, tandis que pour le :one_for_all, tous les processus meurent, et redémarrent.
 
+> Résultats dans le terminal
+![Amélioration - Historique des messages](image-2.png)
+![Amélioration - Lister les salons](image-3.png)
 
+
+PHASE 3 - SECURITE ET COMMANDES
+
+> Résultats dans le terminal
+![Pseudo unique](image-4.png)
+
+![test gerer_commande() - client1 (A)](image-5.png)
+![test gerer_commande() - client2 (B)](image-6.png)
+
+![BONUS - mettre mot de passe à un salon (iex)](image-7.png)
+![BONUS - mot de passe incorrect](image-8.png)
